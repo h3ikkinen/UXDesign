@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#16478C" />
+    <meta property="og:description" content="UX-Марафон #21: Из рук в руки | 15 октября 2020"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/styles.min.css">
+    <link rel="stylesheet" href="../../css/site.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Landing</title>
+</head>
+<body>
+    <div class="landing">
+        <a class="back-top hide" href="" id="backTop">
+            <img src="../../img/backTop.svg" alt="back-top">
+        </a>
+        <section class="header-line">
+            <img src="../../img/landing/bell.svg" alt="bell1">
+            <p>
+                До повышения цен осталось
+                <span id="countbox"></span>
+            </p>
+            <img src="../../img/landing/bell.svg" alt="bell2">
+        </section>
+        <header>
+            <div class="header-mobile">
+                <div class="header-mobile__line">
+                    <p>UX-Марафон #21: Из рук в руки | 15 октября 2020 </p>
+                </div>
+                <div class="header-mobile__container">
+                    <div class="header-mobile__container_buttons">
+                        <Button class="btn btn-primary" onclick="window.location.href = '#tickets'">Билеты</Button>
+                        <Button class="btn btn-light" onclick="window.location.href = '#program'">Программа</Button>
+                    </div>
+                    <!-- <div class="header-mobile__container_hamburger dropdown">
+                        <img src="../../img/hamburger.svg" class="dropdown-toggle" id="hamburger-toggler-person" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" alt="hamburger" />
+                        <div class="dropdown-menu" aria-labelledby="hamburger-toggler-person">
+                            <a class="dropdown-item" href="#tickets">Билеты</a>
+                            <a class="dropdown-item" href="#program">Программа</a>
+                        </div>
+                    </div>
+                    <div class="header-mobile__container_content">
+                        <img src="../../img/logo.svg" alt="logo">
+                    </div>
+                    <div class="header-mobile__container_buttons">
+                        <div class="header__container_buttons-user">
+                            <img src="../../img/user.svg" alt="user">
+                            <p>Мария</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <div class="sticky-header">
+                <div class="sticky-header__main">
+                    <div class="sticky-header__main sticky-header__main_logo">
+                        <img src="../../img/landing/logo.svg" alt="">
+                    </div>
+                    <div class="sticky-header__main sticky-header__main_text">
+                        <h2>UX-Марафон #21: Из рук в руки</h2>
+                        <p>15 октября 2020</p>
+                    </div>
+                </div>
+                <div class="sticky-header__buttons">
+                    <button class="btn btn-primary" onclick="window.location.href = '#tickets'">Билеты</button>
+                    <button class="btn btn-light" onclick="window.location.href = '#program'">Программа</button>
+                </div>
+                <div class="sticky-header__enter">
+                    <img src="../../img/user.svg" alt="">
+                    <p>Войти</p>
+                </div>
+            </div> -->
+            <div class="sticky-header">
+                <div class="sticky-header__main">
+                    <div class="sticky-header__main sticky-header__main_logo">
+                        <img src="../../img/landing/logo.svg" alt="">
+                    </div>
+                    <div class="sticky-header__main sticky-header__main_text">
+                        <h2>UX-Марафон #21: Из рук в руки</h2>
+                        <p>15 октября 2020</p>
+                    </div>
+                </div>
+                <div class="sticky-header__buttons">
+                    <button class="btn btn-primary" onclick="window.location.href = '#tickets'">Билеты</button>
+                    <button class="btn btn-light" onclick="window.location.href = '#program'">Программа</button>
+                </div>
+                <div class="sticky-header__enter">
+                    <img src="../../img/user.svg" alt="">
+                    <p>Войти</p>
+                </div>
+            </div>   
+            <div class="header-top">
+                <div class="header-logo">
+                    <img src="../../img/landing/logo.svg" alt="">
+                </div>
+                <h2>
+                    15 октября 2020
+                    <br>
+                    онлайн-конференция
+                </h2>
+                <!-- <div class="header-enter person-enter">
+                    <img src="../../img/user.svg" alt="">
+                    <p>Мария</p>
+                </div> -->
+                <div class="header-enter">
+                    <img src="../../img/user.svg" alt="">
+                    <p>Войти</p>
+                </div>
+            </div>
+            <div class="header-content">
+                <h1 class="heading-bold">
+                    UX-Марафон #21
+                    <br>
+                    Из рук в руки
+                </h1>
+                <h2 class="header-pre-title">
+                    Специалисты покажут как применяют методологии на примерах реальных рабочих задач.
+                    <br>
+                    Немного теории + пошаговая инструкция выполнения конкретной задачи + выводы, ошибки, советы.
+                </h2>
+                <div class="header-content__buttons">
+                    <button class="btn btn-primary" onclick="window.location.href = '#tickets'">Билеты</button>
+                    <button class="btn btn-light" onclick="window.location.href = '#program'">Программа</button>
+                </div>
+            </div>
+            <div class="header-pics">
+                <img src="../../img/landing/jtbd.png" alt="jtbd" class="img-jtbd">
+                <img src="../../img/landing/cjm.png" alt="cjm" class="img-cjm">
+            </div>
+        </header>
+<!--        <div class="speakers__list_person" onclick="window.location.href = '#another'">-->
+<!--            <img src="../../img/more.svg" alt="person">-->
+<!--            <p class="danger-text">-->
+<!--                + 3 крутых спикера-->
+<!--                <br>-->
+<!--                <span class="info-text">-->
+<!--                            С докладами про юзабилити-тесты,-->
+<!--                            <br>-->
+<!--                            CJM и другие фреймворки-->
+<!--                        </span>-->
+<!--            </p>-->
+<!--        </div>-->
+        <section class="speakers container">
+            <div class="row">
+                <div class="speakers__list container">
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="speakers__list_person" onclick="window.location.href = '#dmitry'">
+                            <img src="../../img/landing/ilyin.svg" alt="ilyin">
+                            <p class="danger-text">
+                                Дмитрий Ильин
+                                <br>
+                                <span class="info-text">
+                            Senior Marketing Data Analyst
+                            <br>
+                            Альфа-банк
+                        </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="speakers__list_person" onclick="window.location.href = '#marya'">
+                            <img src="../../img/landing/marya.svg" alt="marya">
+                            <p class="danger-text">
+                                Мария Амирханян
+                                <br>
+                                <span class="info-text">
+                            UX-исследователь
+                            <br>
+                            Mail.ru Group
+                        </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="speakers__list_person" onclick="window.location.href = '#irina'">
+                            <img src="../../img/landing/denisova.png" alt="denisova">
+                            <p class="danger-text">
+                                Ирина Денисова
+                                <br>
+                                <span class="info-text">
+                            UX-специалист, аналитик,
+                            <br>
+                            основатель веб-студии
+                            <br>
+                            Denir.ru
+                        </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="speakers__list container">
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="speakers__list_person" onclick="window.location.href = '#nadezda'">
+                            <img src="../../img/landing/nadezda.png" alt="nadezda">
+                            <p class="danger-text">
+                                Надежда Щетинина
+                                <br>
+                                <span class="info-text">
+                                    Руководитель Центра компетенции
+                                    <br>
+                                    исследований клиентского опыта
+                                    <br>
+                                    ПСБ
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="speakers__list_person" onclick="window.location.href = '#anastasiya'">
+                            <img src="../../img/landing/anastasiya.png" alt="anastasiya">
+                            <p class="danger-text">
+                                Анастасия Харитонова
+                                <br>
+                                <span class="info-text">
+                                    Lead Product Designer
+                                    <br>
+                                    Росбанк
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="speakers__list_person" onclick="window.location.href = '#katerina'">
+                            <img src="../../img/landing/katerina.png" alt="keterina">
+                            <p class="danger-text">
+                                Катерина Момот
+                                <br>
+                                <span class="info-text">
+                                    Дизайнер
+                                    <br>
+                                    Райффайзенбанк
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how">
+            <h1 class="landing-heading">Как проходит UX-Марафон?</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4 how__item">
+                        <div class="how__item_image">
+                            <img src="../../img/landing/how/how1.svg" alt="how1">
+                            <img src="../../img/landing/how/arrow1.svg" alt="`arrow1" class="arrow1">
+                        </div>
+                        <div class="how__item_content">
+                            <p>
+                                <b>6 кейсов по 20-60 минут</b>
+                            </p>
+                            <p>
+                                Cпециалисты решают конкретные рабочие задачи с применением методологий. Вы смотрите трансляцию в офисе или дома, с командой или самостоятельно.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 how__item">
+                        <div class="how__item_image">
+                            <img src="../../img/landing/how/how2.svg" alt="how2">
+                            <img src="../../img/landing/how/arrow2.svg" alt="`arrow2" class="arrow2">
+                        </div>
+                        <div class="how__item_content">
+                            <p>
+                                <b>
+                                    После каждого доклада -
+                                    <br>
+                                    20 минут на общение со спикерами
+                                </b>
+                            </p>
+                            <p>
+                                На протяжении всего события и после - общение в чате с другими участниками и спикерами
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 how__item">
+                        <div class="how__item_image">
+                            <img src="../../img/landing/how/how3.svg" alt="how3">
+                        </div>
+                        <div class="how__item_content">
+                            <p>
+                                <b>После события: записи докладов</b>
+                            </p>
+                            <p>
+                                + полезные материалы, презентации спикеров, сертификат участника, чат со спикерами и зрителями, чек-листы и методички
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="program container" id="program">
+            <h1 class="landing-heading">Программа</h1>
+            <p class="info-text about-text">15 октября 2020, 11:00–18:00 Мск</p>
+
+            <div class="program__list">
+                <div class="program__list_action">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">приветствие участников и спикеров</p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/sasha.svg" alt="">
+                            <div class="specialist-text">
+                                <p>Александра Постовалова</p>
+                                <p class="info-text">
+                                    Основатель и организатор
+                                    <br>
+                                    UX-Марафон
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <p>Этот выпуск онлайн-конференции мы постарались сделать особенно полезным и прикладным. Мы нашли специалистов, готовых показать как они используют методологии, фреймворки и инструменты для выполнения реальных задач.</p>
+                            <p>На событии мы увидим, как подход Jobs To Be Done помог спроектировать B2B-продукт и как развитию продукта помогают исследования. На примере лендинга UX-Марафон узнаем, как настроить веб-аналитику, собрать данные, сделать выводы и просчитать окупаемость рекламной кампании.</p>
+                            <p>И это еще не всё… Подключайтесь!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__list_action" id="dmitry">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">
+                            Собираем информацию о пользователях и их поведении
+                            <br>
+                            на примере лендинга UX-Марафон
+                        </p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/ilyin.svg" alt="">
+                            <div class="specialist-text">
+                                <p>Дмитрий Ильин</p>
+                                <p class="info-text">
+                                    Senior Marketing Data Analyst
+                                    <br>
+                                    Альфа-банк
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <ul>
+                                <li>
+                                    <span>1.</span>
+                                    Определяем цели/метрики вместе с владельцем бизнеса
+                                </li>
+                                <li>
+                                    <span>2.</span>
+                                    Обсуждаем технические нюансы внедрения систем аналитики вместе с
+                                    <br>
+                                    разработчиками сайта/приложения
+                                </li>
+                                <li>
+                                    <span>3.</span>
+                                    Настраиваем сбор данных
+                                </li>
+                                <li>
+                                    <span>4.</span>
+                                    Анализируем данные и делаем выводы
+                                </li>
+                                <li>
+                                    <span>5.</span>
+                                    Составляем список дальнейших действий
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__list_action" id="marya">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">
+                            Проведение исследований на разных стадиях продукта
+                            <br>
+                            на примере видеоигр
+                        </p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/marya.svg" alt="">
+                            <div class="specialist-text">
+                                <p>Мария Амирханян</p>
+                                <p class="info-text">
+                                    UX-исследователь
+                                    <br>
+                                    Mail.ru Group
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <ul>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Этапы создания продукта
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как создаются видеоигры: путь игры от идеи до релиза
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Есть ли жизнь после релиза
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Различия между созданием digital продуктов и видеоигр
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Исследовательские методы, которые наиболее актуальны на разных этапах создания продукта
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Фантастические проблемы и где их найти: использование различных методов на реальных кейсах
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__list_action" id="irina">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">
+                            Как применять JTBD на практике. Первый опыт использования
+                            <br>
+                            фреймворка при разработке B2B-продукта
+                        </p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/denisova.png" alt="">
+                            <div class="specialist-text">
+                                <p>Ирина Денисова</p>
+                                <p class="info-text">
+                                    UX-специалист, аналитик,
+                                    <br>
+                                    основатель веб-студии
+                                    <br>
+                                    Denir.ru
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <ul>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как мы начали разработку по стандартному процессу с созданием персонажей
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Что нас остановило и почему переключились на JTBD, что заинтересовало в методике, почему
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Что такое JTBD: основатели, 2 лагеря, артефакты, этапы исследования
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Погружение в методику: какие статьи, вебинары, книги изучали
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    JTBD на практике: пошаговый разбор
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Рекомендации для самостоятельного изучения, ссылки
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__list_action" id="nadezda">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">
+                            Как провести интервью и докопаться до сути
+                        </p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/nadezda.png" alt="">
+                            <div class="specialist-text">
+                                <p>Надежда Щетинина</p>
+                                <p class="info-text">
+                                    Руководитель Центра компетенции
+                                    <br>
+                                    исследований клиентского опыта
+                                    <br>
+                                    ПСБ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <ul>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Коротко о том, что такое глубинное интервью и зачем оно нужно
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Психология принципов проведения глубинного интервью
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Что делать, если вам попался трудный респондент
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как новичкам перестать бояться и начать интервьюировать
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__list_action" id="katerina">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">
+                            UserStory Map — как описать новый продукт на основе CJM
+                        </p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/katerina.png" alt="">
+                            <div class="specialist-text">
+                                <p>Катерина Момот</p>
+                                <p class="info-text">
+                                    Дизайнер
+                                    <br>
+                                    Райффайзенбанк
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <ul>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Вы составили CJM. Что дальше?
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как составляется User Story Map: теория
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как теория ложится на практику — не все так просто 🙂
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Level UP: бизнес модель и бизнес-цели на карте
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__list_action" id="anastasiya">
+                    <div class="program__list_action-info">
+                        <p class="info-text"></p>
+                        <p class="danger-text">
+                            От гипотезы до результата и обратно. Юзабилити-тестирования в Росбанке
+                        </p>
+                    </div>
+                    <div class="program__list_action-content">
+                        <div class="program__list_action-content--specialist">
+                            <img src="../../img/landing/anastasiya.png" alt="">
+                            <div class="specialist-text">
+                                <p>Анастасия Харитонова</p>
+                                <p class="info-text">
+                                    Lead Product Designer
+                                    <br>
+                                    Росбанк
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program__list_action-content--info">
+                            <ul>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как мы формулируем и отбираем гипотезы
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как набрать респондентов в ограниченных условиях
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Сколько нужно респондентов и почему
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как проводим удаленные юзабилити-тестирования
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Как проводим очные юзабилити-тестирования
+                                </li>
+                                <li>
+                                    <img src="../../img/landing/grey-ellipse.svg" alt="ellipse">
+                                    Что делать с результатами
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!--                <div class="program__list_action" id="another">-->
+<!--                    <div class="program__list_action-info">-->
+<!--                        <p class="info-text"></p>-->
+<!--                        <p class="danger-text">юзабилити-тесты, CJM и другие фреймворки</p>-->
+<!--                    </div>-->
+<!--                    <div class="program__list_action-content">-->
+<!--                        <div class="program__list_action-content&#45;&#45;specialist">-->
+<!--                            <img src="../../img/more.svg" alt="">-->
+<!--                            <div class="specialist-text">-->
+<!--                                <p>+ 3 крутых спикера</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="program__list_action-content&#45;&#45;info">-->
+<!--                            <p>-->
+<!--                                Скоро объявим еще нескольких спикеров, следите за новостями в-->
+<!--                                <a href="https://t.me/uxmarafon">Telegram</a>-->
+<!--                                и-->
+<!--                                <a href="https://www.facebook.com/uxmarafon/">UX Club</a>!-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </section>
+        <section class="what">
+            <h1 class="landing-heading">Что такое UX-Марафон?</h1>
+            <div class="what__content">
+                <p class="what__content_info">
+                    Онлайн-конференция UX-Марафон —
+                    <br>
+                    это ежеквартальный слет специалистов
+                    <br>
+                    для обмена опытом и вдохновения
+                </p>
+                <div class="what__content_items">
+                    <div class="what__content_items-item">
+                        <h1 class="bold-heading">5 лет</h1>
+                        <p>каждые 3 месяца</p>
+                    </div>
+                    <div class="what__content_items-item">
+                        <h1 class="bold-heading">150+</h1>
+                        <p>спикеров-практиков</p>
+                    </div>
+                    <div class="what__content_items-item">
+                        <h1 class="bold-heading">5000+</h1>
+                        <p>довольных зрителей</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why container">
+            <h1 class="landing-heading">Почему UX-Марафон?</h1>
+            <div class="why__content">
+                <div class="why__content why__content_item">
+                    <img src="../../img/landing/why/why1.svg" alt="why1">
+                    <div class="why__content why__content_item-text">
+                        <p>
+                            <b>Практические знания</b>
+                        </p>
+                        <p>
+                            Вы получаете концентрированную практическую информацию, которую можно сразу применять. Все спикеры – практики, готовые делиться кейсами, цифрами и рабочими документами, которые используют сами.
+                        </p>
+                    </div>
+                </div>
+                <div class="why__content why__content_item odd">
+                    <img src="../../img/landing/why/why2.svg" alt="why2">
+                    <div class="why__content why__content_item-text">
+                        <p>
+                            <b>Самый свежий опыт</b>
+                        </p>
+                        <p>
+                            Вы получите самую свежую информацию от топ-специалистов, которая еще не описана в статьях и книгах. Наши эксперты рассказывают, какие навыки сейчас важны, как повышать компетентность и развиваться, где искать вдохновение и поддержку.
+                        </p>
+                    </div>
+                </div>
+                <div class="why__content why__content_item">
+                    <img src="../../img/landing/why/why3.svg" alt="why3">
+                    <div class="why__content why__content_item-text">
+                        <p>
+                            <b>Общение с профессионалами</b>
+                        </p>
+                        <p>
+                            В течение онлайн-конференции вы можете задавать вопросы спикерам и общаться с другими участниками сообщества. Общение в сообществе продолжается и после события.
+                        </p>
+                    </div>
+                </div>
+                <div class="why__content why__content_item odd">
+                    <img src="../../img/landing/why/why4.svg" alt="why4">
+                    <div class="why__content why__content_item-text">
+                        <p>
+                            <b>Удобный формат</b>
+                        </p>
+                        <p>
+                            Доклады можно смотреть одному и с командой, онлайн во время конференции или после в записи. Из любой точки мира, где есть Интернет. Можно вернуться к теме, когда она станет актуальна и собрать только релевантный материал.
+                        </p>
+                    </div>
+                </div>
+                <div class="why__content why__content_item">
+                    <img src="../../img/landing/why/why5.svg" alt="why5">
+                    <div class="why__content why__content_item-text">
+                        <p>
+                            <b>Сертификат</b>
+                        </p>
+                        <p>
+                            Сертификат участника на русском и английском языке повысит ценность вашего портфолио.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="companies">
+            <h1 class="landing-heading">С 2015 года выступали специалисты 120+ компаний</h1>
+            <div class="companies__line1">
+                <div class="companies__line1 companies__line1_item">
+                    <img src="../../img/landing/companies/tinkoff.svg" alt="">
+                </div>
+                <div class="companies__line1 companies__line1_item">
+                    <img src="../../img/landing/companies/vtb.svg" alt="">
+                </div>
+                <div class="companies__line1 companies__line1_item">
+                    <img src="../../img/landing/companies/rosbank.svg" alt="">
+                </div>
+                <div class="companies__line1 companies__line1_item">
+                    <img src="../../img/landing/companies/sber.svg" alt="">
+                </div>
+                <div class="companies__line1 companies__line1_item">
+                    <img src="../../img/landing/companies/contur.svg" alt="">
+                </div>
+                <div class="companies__line1 companies__line1_item">
+                    <img src="../../img/landing/companies/yandex.svg" alt="">
+                </div>
+            </div>
+            <div class="companies__line2">
+                <div class="companies__line2 companies__line2_item">
+                    <img src="../../img/landing/companies/wrike.svg" alt="">
+                </div>
+                <div class="companies__line2 companies__line2_item">
+                    <img src="../../img/landing/companies/miro.svg" alt="">
+                </div>
+                <div class="companies__line2 companies__line2_item">
+                    <img src="../../img/landing/companies/ozon.svg" alt="">
+                </div>
+                <div class="companies__line2 companies__line2_item">
+                    <img src="../../img/landing/companies/booking.svg" alt="">
+                </div>
+                <div class="companies__line2 companies__line2_item">
+                    <img src="../../img/landing/companies/badoo.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <h1 class="landing-heading">Что говорят зрители про событие</h1>
+            <div class="feedback_container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="feedback_container-item swiper-slide">
+                            <div class="feedback_container-item--main">
+                                <img src="../../img/specialists/Godlevsky.svg" alt="Godlevsky">
+                                <p class="info-text">
+                                    Евгений Годлевский
+                                    <br>
+                                    Lead Product Designer, ProDoza
+                                </p>
+                            </div>
+                            <p>
+                                Лучшее событие по UX на русском языке. Экспертная панель впечатляет и оправдывает. Даже если тема очередного марафона не связана напрямую с вашей работой, пару-тройку действительно ценных UX-инсайтов всегда ухватите из эфира.
+                                Короче, невозможно не рекомендовать!
+                            </p>
+                        </div>
+                        <div class="feedback_container-item swiper-slide">
+                            <div class="feedback_container-item--main">
+                                <img src="../../img/specialists/Amelyn.svg" alt="Amelyn">
+                                <p class="info-text">
+                                    Дмитрий Амелин
+                                    <br>
+                                    Co-Founder, Playliner.com
+                                </p>
+                            </div>
+                            <p>
+                                Благодарю организаторов за такой превосходный формат конференции! Спикеры как всегда на высоте, делятся ценным многолетним опытом, накопленным крупными компаниями. Поверьте, это заметно изменит ваш продукт в лучшую сторону. На мероприятии много инсайдерской информации без "воды". Все методики можно внедрять на практике мгновенно, результат от изменений просто отличный! С удовольствием буду ждать новых мероприятий!
+                            </p>
+                        </div>
+                        <div class="feedback_container-item swiper-slide">
+                            <div class="feedback_container-item--main">
+                                <img src="../../img/specialists/Usyaeva.svg" alt="Usyaeva">
+                                <p class="info-text">
+                                    Асия Усяева
+                                    <br>
+                                    UX researcher, Пятёрочка
+                                </p>
+                            </div>
+                            <p>
+                                UX-марафон - это квинтэссенция полезностей как для начинающих, так и для продвинутых. Спикеры без воды и с юмором описывают реальные кейсы и обсуждают работающие методы. Для меня ценно мое время и с учётом обилия информации очень жаль растратиться и пропустить что-то действительно важное и нужное. А на UX-марафоне ни одна минута не проходит впустую.
+                            </p>
+                        </div>
+                        <div class="feedback_container-item swiper-slide">
+                            <div class="feedback_container-item--main">
+                                <img src="../../img/specialists/valeria.png" alt="Valeria">
+                                <p class="info-text">
+                                    Валерия Накушнова
+                                    <br>
+                                    Продуктовый дизайнер, независимый специалист
+                                </p>
+                            </div>
+                            <p>
+                                Ценность UX-марафона в том, что каждый раз получаешь релевантный опыт практикующих профессионалов. Такой, каким он складывался в действительности: путем экспериментирования, проверки гипотез и поиска работающих решений. Это кажется полезнее, чем ряд кейсов, опубликованных для самопродвижения. А среди всех мероприятий, на которых я бываю нередко, вы точно лучшие. И по уровню глубины презентуемых тем, и по уровню знаний спикеров материалов. Плюс ориентируетесь не только на совсем новичков.
+                            </p>
+                        </div>
+                        <div class="feedback_container-item swiper-slide">
+                            <div class="about__feedback_container-item--main">
+                                <img src="../../img/specialists/Visotskaya.svg" alt="Visotskaya">
+                                <p class="info-text">
+                                    Юлия Высоцкая
+                                    <br>
+                                    UX/UI Дизайнер, Conversor
+                                </p>
+                            </div>
+                            <p>
+                                В начале 2020 года я задалась целью за год повысить свои скилы как минимум вдвое. И вот в один день в очередных поисках свежей и релевантной! информации я наткнулась на UX марафон. Первый мой марафон был в апреле и вот уже второй в июле. Прослушав все выступления, могу с уверенностью сказать что это самая лучшая и релевантная! информация, которая мне очень помогла узнать и разъяснить многие моменты которые раньше были непонятны. С нетерпением жду следующий марафон осенью.
+                            </p>
+                        </div>
+                        <div class="feedback_container-item swiper-slide">
+                            <div class="about__feedback_container-item--main">
+                                <img src="../../img/specialists/Voevodin.svg" alt="Voevodin">
+                                <p class="info-text">
+                                    Степан Воеводин
+                                    <br>
+                                    Старший UX/UI Designer, Мое Дело
+                                </p>
+                            </div>
+                            <p>
+                                Очень нравится это мероприятие. Удобный формат, можно смотреть не выходя из дома. Очень много полезной информации, можно задавать вопросы спикерам в чате. Всегда интересные докладчики. Еще ни разу не пожалел об участии в таком мероприятии.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tickets" id="tickets">
+            <h1 class="landing-heading">Билеты</h1>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Для физических лиц</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Для юридических лиц</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="tickets-tabs">
+                <div class="tickets__main tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="tickets__main_list container">
+                        <div class="col-xl-4 col-xs-12">
+                            <div class="item item-ocean">
+                                <div class="item__heading">
+                                    <h2>
+                                        Билет на
+                                        <br>
+                                        UX-Марафон #21
+                                        <br>
+                                        "Из рук в руки"
+                                    </h2>
+                                </div>
+                                <div class="item__content">
+                                    <div class="item__content_list">
+                                        <ul>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Онлайн-участие
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Видео докладов
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Просмотр видео всех докладов
+                                                                <br/>
+                                                                UX-марафона #21 на сайте ux-marafon.ru
+                                                                <br/>
+                                                                в течение 1 года с даты марафона
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-times"></i>
+                                                Скачивание докладов
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Чат со спикерами
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Сертификат участника
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Полезные материалы
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Сборник ссылок и
+                                                                <br/>
+                                                                литературы по всему
+                                                                <br/>
+                                                                UX-Марафону и контакты
+                                                                <br/>
+                                                                спикеров
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Презентации
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Слайды, которые спикер показывает во
+                                                                <br/>
+                                                                время выступления. После конференции
+                                                                <br/>
+                                                                их можно скачать в pdf.
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__content_price">
+                                        <h1 class="big-heading">2400 ₽</h1>
+                                        <h2 class="info-text">
+                                            <img src="../../img/landing/price-line.png" alt="price-line" class="price-line">
+                                            3100 ₽
+                                        </h2>
+                                    </div>
+<!--                                    <div class="item__content_price promo-price">-->
+<!--                                        <h1 class="big-heading">2400 ₽</h1>-->
+<!--                                        <h2>Промо-цена</h2>-->
+<!--                                    </div>-->
+                                    <div class="item__content_buttons">
+                                        <input id="first" type="radio" name="numbers" value="first">
+                                        <label for="first" class="btn btn-primary" onclick="window.location.href = '#extra'">
+                                            <p>Выбрать</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-xs-12 col-magenta">
+                            <div class="item item-magenta">
+                                <div class="item__heading">
+                                    <h2>
+                                        Абоненент на 2021 год
+                                        <br>
+                                        <span class="danger-text">+ UX-Марафон #21 в подарок</span>
+                                    </h2>
+                                </div>
+                                <div class="item__info">
+                                    <p>
+                                        Включены билеты на
+                                        <b>5 событий:</b>
+                                        <br>
+                                        UX-Марафоны #21-25
+                                        <i
+                                                class="fa fa-question-circle question-icon"
+                                                data-toggle="tooltip"
+                                                data-placement="right"
+                                                data-html="true"
+                                                title="<p>
+                                                        Темы будущих марафонов:
+                                                        <br/>
+                                                        UX-Марафон #22 - Информационная архитектура
+                                                        <br/>
+                                                        UX-Марафоны #23-25 - Аналитика поведения,
+                                                        <br/>
+                                                        UX в E-commerce, Окупаемость в UX
+                                                       </p>"
+                                        >
+                                        </i>
+                                    </p>
+                                </div>
+                                <div class="item__content">
+                                    <div class="item__content_list">
+                                        <ul>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Онлайн-участие
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Видео докладов
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Просмотр видео всех докладов
+                                                                <br/>
+                                                                UX-марафонов #21-25 на сайте ux-marafon.ru
+                                                                <br/>
+                                                                в течение 1 года с даты марафона
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-times"></i>
+                                                Скачивание докладов
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Чат со спикерами
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Сертификат участника
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Полезные материалы
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Сборник ссылок и
+                                                                <br/>
+                                                                литературы по всему
+                                                                <br/>
+                                                                UX-Марафону и контакты
+                                                                <br/>
+                                                                спикеров
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Презентации
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Слайды, которые спикер показывает во
+                                                                <br/>
+                                                                время выступления. После конференции
+                                                                <br/>
+                                                                их можно скачать в pdf.
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__content_price">
+                                        <h1 class="big-heading">9600 ₽</h1>
+                                        <h2 class="info-text">
+                                            <img src="../../img/landing/price-line.png" alt="price-line" class="price-line">
+                                            12400 ₽
+                                        </h2>
+                                    </div>
+                                    <div class="item__content_buttons">
+                                        <input id="second" type="radio" name="numbers" value="first">
+                                        <label for="second" class="btn btn-secondary" onclick="window.location.href = '#extra'">
+                                            <p>Выбрать</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-xs-12">
+                            <div class="item item-gold">
+                                <div class="item__heading">
+                                    <h2>
+                                        Билет на
+                                        <br>
+                                        UX-Марафон #21
+                                        <br>
+                                        "Из рук в руки"
+                                    </h2>
+                                </div>
+                                <div class="item__content">
+                                    <div class="item__content_list">
+                                        <ul>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Онлайн-участие
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Видео докладов
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Просмотр видео всех докладов
+                                                                <br/>
+                                                                UX-марафона #21 на сайте ux-marafon.ru
+                                                                <br/>
+                                                                в течение 1 года с даты марафона
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Скачивание докладов
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Чат со спикерами
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Сертификат участника
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Полезные материалы
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Сборник ссылок и
+                                                                <br/>
+                                                                литературы по всему
+                                                                <br/>
+                                                                UX-Марафону и контакты
+                                                                <br/>
+                                                                спикеров
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check"></i>
+                                                Презентации
+                                                <i
+                                                        class="fa fa-question-circle question-icon"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        data-html="true"
+                                                        title="<p>
+                                                                Слайды, которые спикер показывает во
+                                                                <br/>
+                                                                время выступления. После конференции
+                                                                <br/>
+                                                                их можно скачать в pdf.
+                                                               </p>"
+                                                >
+                                                </i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__content_price">
+                                        <h1 class="big-heading">4800 ₽</h1>
+                                        <h2 class="info-text">
+                                            <img src="../../img/landing/price-line.png" alt="price-line" class="price-line">
+                                            6200 ₽
+                                        </h2>
+                                    </div>
+                                    <div class="item__content_buttons">
+                                        <input id="third" type="radio" name="numbers" value="first">
+                                        <label for="third" class="btn btn-primary btn-sun" onclick="window.location.href = '#extra'">
+                                            <p>Выбрать</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="tickets__main_form">
+                        <div class="form-group">
+                            <label for="promo">У вас есть промокод?</label>
+                            <input type="email" class="form-control" id="promo" aria-describedby="promoHelp">
+                        </div>
+                        <input id="activePromo" type="radio" name="numbers" value="first">
+                        <label for="activePromo" class="btn btn-primary">
+                            <p>Активировать</p>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="tickets__ur container tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <p class="danger-text">Больше билетов – больше скидка! от 3 билетов – 15%, от 5 билетов – 20%, от 10 билетов – 25%</p>
+                </div>
+            </div>
+            <div class="gift-line">
+                <div class="gift-line__content">
+                    <img src="../../img/landing/gift-ordinary.svg" alt="gift">
+                    <p>Получите доступ к одному из докладов UX-Марафона #20 + презентацию бесплатно</p>
+                </div>
+                <button class="btn btn-primary btn-border">Узнать больше</button>
+            </div>
+        </section>
+        <section class="extra" id="extra">
+            <div class="extra__form">
+                <h2>Проверьте свои данные</h2>
+                <form class="data__form_main">
+                    <div class="form-group">
+                        <label for="surname">Фамилия*</label>
+                        <input type="text" class="form-control" id="surname" value="Андреева" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Имя*</label>
+                        <input type="text" class="form-control" id="name" value="Мария" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Адрес электронной почты*</label>
+                        <input type="email" class="form-control" id="address" value="maria.andreeva@company.com" disabled>
+                    </div>
+
+                    <p class="info-text">
+                        Вы можете проверить свои данные в
+                        <a href="#">личном кабинете</a>
+                    </p>
+
+                    <div class="buttons">
+                        <button class="btn btn-primary" >Оформить заказ</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners__general">
+                <h1 class="landing-heading">Генеральный партнер</h1>
+                <img src="../../img/landing/partners/general.svg" alt="general">
+            </div>
+            <div class="partners__others">
+                <h1 class="landing-heading">Инфопартнеры</h1>
+                <div class="partners__others partners__others_list">
+                    <div class="partners__others partners__others_item">
+                        <img src="../../img/landing/partners/general.svg" alt="general">
+                    </div>
+                    <div class="partners__others partners__others_item">
+                        <img src="../../img/landing/partners/general.svg" alt="general">
+                    </div>
+                    <div class="partners__others partners__others_item">
+                        <img src="../../img/landing/partners/general.svg" alt="general">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__nav">
+                <ul>
+                    <li><a href="#">События</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Партнерам</a></li>
+                    <li><a href="#">Докладчикам</a></li>
+                    <li><a href="#">Договор</a></li>
+                    <li><a href="#">Положение о конфиденциальности</a></li>
+                    <li><a href="#">Вопрос или проблема?</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <p>© UX-Марафон 2015-2020</p>
+                <div class="footer__info_socials">
+                    <a href="#">
+                        <img src="../../../img/socials/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="../../../img/socials/telegram.svg" alt="telegram">
+                    </a>
+                    <a href="#">
+                        <img src="../../../img/socials/insta.svg" alt="insta">
+                    </a>
+                    <a href="#">
+                        <img src="../../../img/socials/youtube.svg" alt="youtube">
+                    </a>
+                </div>
+                <p>Мы используем иллюстрации с icons8.com </p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="../../js/main.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>
+    let swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 100,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 500){
+            $('.sticky-header').addClass("sticky-header-show");
+        }
+        else{
+            $('.sticky-header').removeClass("sticky-header-show");
+        }
+    });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 500){
+            $('.header-mobile').addClass("header-mobile--sticky");
+        }
+        else{
+            $('.header-mobile').removeClass("header-mobile--sticky");
+        }
+    });
+</script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+            trigger: "hover",
+            delay: {show: 300, hide: 100}
+        })
+    })
+</script>
+<script>
+    dateFuture = new Date(2020,8,24,23,59,59);
+
+    function GetCount(){
+
+        dateNow = new Date();
+
+        amount = dateFuture.getTime() - dateNow.getTime();
+        delete dateNow;
+        if(amount < 0){
+            document.getElementById('countbox').innerHTML="Now!";
+        }
+        else{
+
+            days=0;hours=0;mins=0;secs=0;out="";
+
+            amount = Math.floor(amount/1000);
+
+            days=Math.floor(amount/86400);
+            amount=amount%86400;
+
+            if (days === 1) {
+                out+= days + " День"
+            } else if (days === 2 || days === 3 || days === 4) {
+                out+= days + " Дня"
+            } else {
+                out += days +" Дней"
+            }
+            document.getElementById('countbox').innerHTML=out;
+
+            setTimeout("GetCount()", 1000);
+        }
+    }
+
+    window.onload=function(){GetCount();}
+</script>
+</html>
